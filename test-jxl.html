@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JXL.js Multithread Demo</title>
+  <!--
+  serviceworker.min.js is required only if your web server doesn't add response headers:
+  Cross-Origin-Opener-Policy: same-origin
+  Cross-Origin-Embedder-Policy: require-corp
+  -->
+  <script src="scripts/multithread-jxl/serviceworker.min.js"></script>
+  <script src="scripts/multithread-jxl/jxl.min.js"></script>
+</head>
+<body>
+    <h1><a href="https://github.com/niutech/jxl.js" style="color: inherit;">JXL.js</a> multithread demo</h1>
+    <p>Image:</p>
+    <img src="https://github.com/niutech/jxl.js/img/test.jxl" width="1024" height="1280" alt="Here is the image">
+    <p>Background image:</p>
+    <p>Picture:</p>
+    <picture>
+      <source srcset="https://github.com/niutech/jxl.js/img/test3.jxl" type="image/jxl">
+      <img src="https://github.com/niutech/jxl.js/img/test3.jpg" width="1024" height="1024" alt="Here is the picture">
+    </picture>
+</body>
+</html>
