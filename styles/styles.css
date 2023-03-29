@@ -1,0 +1,28 @@
+html {
+    
+    /* px means "pixels": the base font size is now 10 pixels high */
+    font-family: "Noto Color Emoji", "Noto Serif SC", "Noto Serif", sans-serif;
+    /* this should be the rest of the output you got from Google Fonts */
+    background-color: cornsilk;
+}
+
+p {
+    font-size: 30px;
+    color: gray;
+    width: 500px;
+    border: 1px solid black;
+}
+
+body {
+    background-color: #f0f0f0;
+    width: 800px;
+    padding: 0 20px 20px 20px;
+    border: 3px solid khaki;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 50px;
+    color: rosybrown;
+    text-align: center;
+}
