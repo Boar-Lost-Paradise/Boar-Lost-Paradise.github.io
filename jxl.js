@@ -3,7 +3,7 @@
 
   const config = {
     useCache: true,
-    imageType: 'jpeg' // jpeg/png/webp
+    imageType: 'webp' // jpeg/png/webp
   };
 
   let cache;
